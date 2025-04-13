@@ -6,19 +6,19 @@ def login(request):
     context = {
         'title': 'Авторизация'
     }
-    return render(request, '', context)
+    return render(request, 'users/login.html', context)
 
 def registration(request):
     context = {
         'title': 'Регистрация'
     }
-    return render(request, '', context)
+    return render(request, 'users/registration.html', context)
 
 def profile(request):
     context = {
         'title': ''
     }
-    return render(request, 'Кабинет', context)
+    return render(request, 'users/profile.html', context)
 
 def logout(request):
     ...
