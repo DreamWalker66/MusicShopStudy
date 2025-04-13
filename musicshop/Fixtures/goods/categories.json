@@ -1,1 +1,37 @@
-[{"model": "goods.categories", "pk": 3, "fields": {"name": "┬ёх ЄютрЁ√", "slug": "all"}}, {"model": "goods.categories", "pk": 10, "fields": {"name": "╠хЄры", "slug": "metal"}}, {"model": "goods.categories", "pk": 11, "fields": {"name": "╨юъ", "slug": "rok"}}, {"model": "goods.categories", "pk": 12, "fields": {"name": "╧юя", "slug": "pop"}}, {"model": "goods.categories", "pk": 13, "fields": {"name": "▌ыхъЄЁюэшър", "slug": "elektronika"}}, {"model": "goods.categories", "pk": 14, "fields": {"name": "─црч", "slug": "dzhaz"}}, {"model": "goods.categories", "pk": 15, "fields": {"name": "┴ы■ч", "slug": "blyuz"}}]
+[
+  {
+    "model": "goods.categories",
+    "pk": 3,
+    "fields": { "name": "Все жанры", "slug": "all" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 10,
+    "fields": { "name": "Метал", "slug": "metal" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 11,
+    "fields": { "name": "Рок", "slug": "rok" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 12,
+    "fields": { "name": "Поп", "slug": "pop" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 13,
+    "fields": { "name": "Электроника", "slug": "elektronika" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 14,
+    "fields": { "name": "Джаз", "slug": "dzhaz" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 15,
+    "fields": { "name": "Блюз", "slug": "blyuz" }
+  }
+]

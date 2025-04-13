@@ -16,7 +16,7 @@ def registration(request):
 
 def profile(request):
     context = {
-        'title': ''
+        'title': 'Кабинет'
     }
     return render(request, 'users/profile.html', context)
 

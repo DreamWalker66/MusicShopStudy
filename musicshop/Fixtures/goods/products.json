@@ -1,1 +1,142 @@
-[{"model": "goods.products", "pk": 4, "fields": {"name": "Surrounded by Freaks", "slug": "surrounded-by-freaks", "description": "─хс■Єэ√щ ш яюёыхфэшщ ры№сюь уЁєяя√ Tribal Ink", "image": "goods_images/TribalInk.jpg", "price": "150.00", "discount": "0.00", "quantity": 10, "category": 11}}, {"model": "goods.products", "pk": 5, "fields": {"name": "A Whole Lot Of Nothing", "slug": "a-whole-lot-of-nothing", "description": "└ы№сюь уЁєяя√ Clawfinger", "image": "goods_images/Clawfinger.jpg", "price": "120.00", "discount": "0.00", "quantity": 10, "category": 10}}, {"model": "goods.products", "pk": 6, "fields": {"name": "No Geography", "slug": "no-geography", "description": "└ы№сюь уЁєяя√ The Chemicals Brothers", "image": "goods_images/ChemicalBrothers.jpg", "price": "130.00", "discount": "0.00", "quantity": 10, "category": 13}}, {"model": "goods.products", "pk": 7, "fields": {"name": "The Works", "slug": "the-works", "description": "└ы№сюь ртЄюЁр Chris Rea", "image": "goods_images/ChrisRea.jpg", "price": "160.00", "discount": "0.00", "quantity": 10, "category": 15}}, {"model": "goods.products", "pk": 8, "fields": {"name": "Under Acid Hoof", "slug": "under-acid-hoof", "description": "└ы№сюь уЁєяя√ Acid Mammoth", "image": "goods_images/AcidMammoth.jpg", "price": "150.00", "discount": "0.00", "quantity": 10, "category": 10}}, {"model": "goods.products", "pk": 9, "fields": {"name": "Exciter", "slug": "exciter", "description": "└ы№сюь уЁєяя√ Depeche Mode", "image": "goods_images/DepecheMode.jpg", "price": "200.00", "discount": "10.00", "quantity": 5, "category": 13}}, {"model": "goods.products", "pk": 10, "fields": {"name": "The Highlights", "slug": "the-highlights", "description": "└ы№сюь ртЄюЁр The Weeknd", "image": "goods_images/TheWeeknd.jpg", "price": "200.00", "discount": "20.00", "quantity": 10, "category": 12}}, {"model": "goods.products", "pk": 11, "fields": {"name": "Hunting High And Low", "slug": "hunting-high-and-low", "description": "└ы№сюь уЁєяя√ a-ha", "image": "goods_images/a-ha.jpg", "price": "300.00", "discount": "20.00", "quantity": 10, "category": 12}}, {"model": "goods.products", "pk": 12, "fields": {"name": "The Kingdom", "slug": "the-kingdom", "description": "└ы№сюь уЁєяя√ BUSH", "image": "goods_images/BUSH.jpg", "price": "150.00", "discount": "0.00", "quantity": 15, "category": 11}}, {"model": "goods.products", "pk": 13, "fields": {"name": "Humbug", "slug": "humbug", "description": "└ы№сюь уЁєяя√ Arctic Monkeys", "image": "goods_images/ArcticMonkeys.jpg", "price": "180.00", "discount": "0.00", "quantity": 10, "category": 11}}]
+[
+  {
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+      "name": "Surrounded by Freaks",
+      "slug": "surrounded-by-freaks",
+      "description": "Альбом группы Tribal Ink",
+      "image": "goods_images/TribalInk.jpg",
+      "price": "150.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 11
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 5,
+    "fields": {
+      "name": "A Whole Lot Of Nothing",
+      "slug": "a-whole-lot-of-nothing",
+      "description": "Альбом группы Clawfinger",
+      "image": "goods_images/Clawfinger.jpg",
+      "price": "120.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 10
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 6,
+    "fields": {
+      "name": "No Geography",
+      "slug": "no-geography",
+      "description": "Альбом группы The Chemicals Brothers",
+      "image": "goods_images/ChemicalBrothers.jpg",
+      "price": "130.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 13
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 7,
+    "fields": {
+      "name": "The Works",
+      "slug": "the-works",
+      "description": "Альбом автора Chris Rea",
+      "image": "goods_images/ChrisRea.jpg",
+      "price": "160.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 15
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 8,
+    "fields": {
+      "name": "Under Acid Hoof",
+      "slug": "under-acid-hoof",
+      "description": "Альбом группы Acid Mammoth",
+      "image": "goods_images/AcidMammoth.jpg",
+      "price": "150.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 10
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 9,
+    "fields": {
+      "name": "Exciter",
+      "slug": "exciter",
+      "description": "Альбом группы Depeche Mode",
+      "image": "goods_images/DepecheMode.jpg",
+      "price": "200.00",
+      "discount": "10.00",
+      "quantity": 5,
+      "category": 13
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 10,
+    "fields": {
+      "name": "The Highlights",
+      "slug": "the-highlights",
+      "description": "Альбом автора The Weeknd",
+      "image": "goods_images/TheWeeknd.jpg",
+      "price": "200.00",
+      "discount": "20.00",
+      "quantity": 10,
+      "category": 12
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 11,
+    "fields": {
+      "name": "Hunting High And Low",
+      "slug": "hunting-high-and-low",
+      "description": "Альбом группы a-ha",
+      "image": "goods_images/a-ha.jpg",
+      "price": "300.00",
+      "discount": "20.00",
+      "quantity": 10,
+      "category": 12
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 12,
+    "fields": {
+      "name": "The Kingdom",
+      "slug": "the-kingdom",
+      "description": "Альбом группы BUSH",
+      "image": "goods_images/BUSH.jpg",
+      "price": "150.00",
+      "discount": "0.00",
+      "quantity": 15,
+      "category": 11
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 13,
+    "fields": {
+      "name": "Humbug",
+      "slug": "humbug",
+      "description": "Альбом группы Arctic Monkeys",
+      "image": "goods_images/ArcticMonkeys.jpg",
+      "price": "180.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 11
+    }
+  }
+]
