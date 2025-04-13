@@ -6,15 +6,18 @@ from goods.models import Products
 # Create your views here.
 
 
-def catalog(request, category_slug, page=1):
+def catalog(request, category_slug):
+
+    page = request.GET.get('page', 1)
+
     if category_slug == 'all':
         goods = Products.objects.all()
     else:
         goods = get_list_or_404(Products.objects.filter(category__slug=category_slug))
 
     # Пагинатор
-    paginator = Paginator(goods, 3) # Изменить число для отображения товаров на странице
-    current_page = paginator.page(page)
+    paginator = Paginator(goods, 6) # Изменить число для отображения товаров на странице
+    current_page = paginator.page(int(page))
 
     context = {
         "title": "Каталог",
